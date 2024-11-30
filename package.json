@@ -8,12 +8,15 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
+    "framer-motion": "^11.12.0",
     "franc": "^6.1.0",
+    "lucide-react": "^0.462.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-use-dark-mode": "^2.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,5 +45,10 @@
   },
   "env": {
     "REACT_APP_API_KEY": "1b51d67e1f714ab192983942232907"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
   }
 }
